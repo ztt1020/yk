@@ -1,0 +1,84 @@
+{
+    "recommed":
+    {
+        "swiper": [
+        {
+            "slideList": [
+            {
+                "id": "1",
+                "url": "imgs/img1.png"
+            },
+            {
+                "id": "2",
+                "url": "imgs/img3.png"
+            }]
+        },
+        {
+            "slideList": [
+            {
+                "id": "3",
+                "url": "imgs/img4.png"
+            },
+            {
+                "id": "4",
+                "url": "imgs/img1.png"
+            }]
+        },
+        {
+            "slideList": [
+            {
+                "id": "5",
+                "url": "imgs/img3.png"
+            },
+            {
+                "id": "6",
+                "url": "imgs/img4.png"
+            }]
+        }],
+        "goodsList": [
+        {
+            "id": "7",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "8",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "12",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "13",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        }]
+    },
+    "girl":
+    {
+        "goodsList": [
+        {
+            "id": "10",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "11",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "12",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        },
+        {
+            "id": "13",
+            "url": "imgs/img1.png",
+            "text": "苹果数据线"
+        }]
+    }
+}

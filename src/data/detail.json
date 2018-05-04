@@ -1,0 +1,27 @@
+{
+    "detailList": [
+    {
+        "id": "1",
+        "url": "imgs/1.png",
+        "detail": "详情",
+        "title": "swiper详情"
+    },
+    {
+        "id": "2",
+        "url": "imgs/3.png",
+        "detail": "详情",
+        "title": "swiper详情"
+    },
+    {
+        "id": "3",
+        "url": "imgs/4.png",
+        "detail": "详情",
+        "title": "swiper详情"
+    },
+    {
+        "id": "4",
+        "url": "imgs/1.png",
+        "detail": "详情",
+        "title": "swiper详情"
+    }]
+}

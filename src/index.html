@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+    <script>
+		document.documentElement.style.fontSize=window.innerWidth / 750 * 100 + "px";
+	</script>
+</head>
+
+<body>
+    <div class="wrap">
+    	<header>
+    		<a><i class="icon iconfont icon-xiangzuo"></i></a>
+    		<span>家居</span>
+    		<a><i class="icon iconfont icon-fangdajing"></i></a>
+    	</header>
+        <div class="con-wrap">
+            <div class="tab-item">
+                <div class="nav-wrap">
+                    <ul class="nav">
+                        <li class="active" data-type="recommed">推荐</li>
+                        <li data-type="girl">女装</li>
+                        <li data-type="boy">男装</li>
+                        <li>家居</li>
+                        <li>美食</li>
+                        <li>旅游</li>
+                        <li>鞋子</li>
+                        <li>美妆</li>
+                    </ul>
+                </div>
+                
+                    <div class="content">
+                    </div>
+                
+                <script type="text/x-handlebars-template" id="list">
+                    {{#each this}}
+                        <ul class="swiper-list">
+                            {{#each slideList}}
+                            <li>
+                                <a href="detail.html?id={{id}}">
+                                <img src="{{url}}">
+                                </a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                   
+                    {{/each}}
+                </script>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/libs/require.js"></script>
+    <script>
+    require(['js/main.js'], function() {
+        require(['index'])
+    })
+    </script>
+</body>
+
+</html>

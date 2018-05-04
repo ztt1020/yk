@@ -1,0 +1,23 @@
+{
+  "name": "yk",
+  "version": "1.0.0",
+  "description": "月考张甜甜",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztt1020/yk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztt1020/yk/issues"
+  },
+  "homepage": "https://github.com/ztt1020/yk#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
